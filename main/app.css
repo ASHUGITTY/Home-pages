@@ -6,8 +6,9 @@ slide
 --------------------------------------------------------------------------*/
 .orbit-container
 {
-	width: 80%;
+	width: 94%;
 	margin-left: 10%;
+
 
 }
 @media screen  and (min-width:1920px )
@@ -16,6 +17,21 @@ slide
 	{
 		margin-left: 0%;
 	}
+}
+.callout
+{
+	background:#eaeaea ;
+	margin-right: 7rem;
+	
+}
+#tabRight
+{
+	list-style-type: none;
+}
+#tabRightli
+{
+	list-style-type: none;
+
 }
 
 /*---------------------------------------------------------------------------
