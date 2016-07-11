@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="thumbnail-slider1.css">
     <link rel="stylesheet" type="text/css" href="partner-slider.css">
     
+    
     </head>
   
   
@@ -27,7 +28,7 @@
     <div class="top-bar-right" style="margin-right: 14%;margin-top:2%; ">
       <p style="margin-left: 3.2rem">Home | Contact us</p>
       <ul class="menu">
-      <li><input type="search" placeholder="Google search"></li>
+      <li><input  placeholder="Google search"></li>
       </ul>
     
     </div>
@@ -95,7 +96,17 @@
               </p>
               </li>
               <li class="tabRightli" >
-              <p style="font-size: small;"><a href="#" style="color:#dead43">Read More...</a></p>
+              <p style="font-size: small;"><a href="#" style="color:#dead43" data-open="exampleModal1">Read More...</a></p>
+                <div class="reveal" id="exampleModal1" data-reveal>
+                    <p>The opportunity arose when NJ Advance Media, launched a new portal Oh. My. Jersey. (OMJ).
+
+                        OMJ is a website that covers celebrity, style and social media in New Jersey. They aim to celebrate, elevate and connect the lives of women who live in and love New Jersey.
+                        The content is produced by their staff and a network of OMJ Trendsetters, who are the biggest social media stars in New Jersey.
+                        OMJ is using the new VIP Go Platform from WordPress.com VIP. The earlier VIP classic platform did not allow custom database tables but new VIP Go platform doesn’t have any such restrictions.</p>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
               </li>
             </ul>
           </div>
@@ -322,7 +333,17 @@
             <p id="footNav"> <a href="#" id="links">>>Educational Workshop & meeting</a></p>
             </li>
             <li class="newsLi">
-            <p id="footNav" style="margin-left: 9rem;"> <a href="#" >More News</a></p>
+            <p id="footNav" style="margin-left: 9rem;"> <a href="#" data-open="exampleModal1">More News</a></p>
+                <div class="reveal" id="exampleModal1" data-reveal>
+                    <p>The opportunity arose when NJ Advance Media, launched a new portal Oh. My. Jersey. (OMJ).
+
+                        OMJ is a website that covers celebrity, style and social media in New Jersey. They aim to celebrate, elevate and connect the lives of women who live in and love New Jersey.
+                        The content is produced by their staff and a network of OMJ Trendsetters, who are the biggest social media stars in New Jersey.
+                        OMJ is using the new VIP Go Platform from WordPress.com VIP. The earlier VIP classic platform did not allow custom database tables but new VIP Go platform doesn’t have any such restrictions.</p>
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             </li>
           </ul>
         </li>
@@ -522,6 +543,7 @@
       var d = new Date();
       document.getElementById("dateArea").innerHTML = d.toUTCString();
     </script>
+    
 
   </body>
 </html>
