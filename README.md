@@ -1,12 +1,12 @@
 # Home-pages
 ***************************************************************************************
-FRONT END DEVELOPER ASSIGMNET
+FRONT END DEVELOPER ASSIGNMENT
 ***************************************************************************************
-Technologies used in the assignment:
-1. HTML
-2.CSS (Foundation 6 Framework)
-3.Javascript 
-4.simpleweather.js
-5.Sublime Text (Editor)
+Technologies used in the assignment:<br/>
+1. HTML<br/>
+2.CSS (Foundation 6 Framework)<br/>
+3.Javascript <br/>
+4.simpleweather.js<br/>
+5.Sublime Text (Editor)<br/>
 
 ***************************************************************************************
