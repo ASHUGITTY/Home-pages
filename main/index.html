@@ -14,33 +14,7 @@
     <link rel="stylesheet" type="text/css" href="thumbs2.css">
     <link rel="stylesheet" type="text/css" href="thumbnail-slider1.css">
     <link rel="stylesheet" type="text/css" href="partner-slider.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-   <script src="gulpfile.js"></script>
-    <script src="jquery.simpleWeather.js"></script>
-    <script src="jquery.simpleWeather.min.js"></script>
-  <script type="text/javascript">
-
-$(document).ready(function() {
-  $.simpleWeather({
-    location: 'AUSTIN, TX',
-    woeid: '',
-    unit: 'f',
-    success: function(weather) {
-      weatherContainer = '<h2 ><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
-      weatherContainer += '<ul><li>'+weather.city+', '+weather.region+'</li>';
-      weatherContainer += '<li class="currently">'+weather.currently+'</li>';
-     weatherContainer += '<li >'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
-  
-      $("#weather").html(weatherContainer);
-    },
-    error: function(error) {
-      $("#weather").weatherContainer('<p>'+error+'</p>');
-    }
-  });
-});
-
-</script>
-
+    
     
     </head>
   
@@ -574,6 +548,35 @@ $(document).ready(function() {
       var d = new Date();
       document.getElementById("dateArea").innerHTML = d.toUTCString();
     </script>
+
+<!--simpleweather.js-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="gulpfile.js"></script>
+    <script src="jquery.simpleWeather.js"></script>
+    <script src="jquery.simpleWeather.min.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+      $.simpleWeather({
+      location: 'PUNE, IN',
+      woeid: '',
+      unit: 'f',
+      success: function(weather) {
+      weatherContainer = '<h2 ><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      weatherContainer += '<ul><li>'+weather.city+', '+weather.region+'</li>';
+      weatherContainer += '<li class="currently">'+weather.currently+'</li>';
+     weatherContainer += '<li >'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
+  
+      $("#weather").html(weatherContainer);
+    },
+    error: function(error) {
+      $("#weather").weatherContainer('<p>'+error+'</p>');
+       }
+      });
+    });
+
+  </script>
+
     
   </body>
 </html>

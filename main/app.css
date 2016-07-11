@@ -255,13 +255,14 @@ CSS FOR simpleweather.js
 }
 
 i {
-  color: #fff;
+  color: white;
   font-family: weather;
   font-size: 100px;
-  font-weight: normal;
+  font-weight: medium;
   font-style: normal;
   line-height: 1.0;
   text-transform: none;
+  margin-left: 4rem;
 }
 
 .icon-0:before { content: ":"; }
@@ -314,25 +315,27 @@ i {
 .icon-47:before { content: "S"; }
 
 #weather h2 {
-  margin: 0 0 8px;
+  margin: 0 0 0px;
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
 #weather ul {
   margin: 0;
   padding: 0;
+  margin-right: 5rem;
 }
 
 #weather li {
   background: #fff;
   background: rgba(255,255,255,0.90);
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   border-radius: 5px;
+ 
 }
 
 #weather .currently {
