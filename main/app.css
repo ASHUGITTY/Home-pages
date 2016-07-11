@@ -235,15 +235,15 @@ CSS FOR simpleweather.js
     font-style: normal;
 }
 
-#weatherContainer {
+#weatherContainer{
   width: 310px;
-  height: 200px;
+  height: 240px;
   background: #1192d3 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/austin-2.jpg) no-repeat bottom right;
   background-size: cover;
 }
 
-#weatherContainer {
-  padding: 45px 0;
+#weatherContainer{
+  padding: 20px 0;
   font: 10px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
