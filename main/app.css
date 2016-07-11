@@ -1,16 +1,4 @@
 
-
-@media screen and (min-width: 1920px;)
-{
-
-
-
-	.orbit-container
-	{
-
-		margin-left: 0%;
-	}
-}
 /*-------------------------------------------------------------------------
 Image slider
 --------------------------------------------------------------------------*/
@@ -119,7 +107,7 @@ Twitter
 Twitter
 --------------------------------------------------------------------------*/
 
-@media screen and (max-width:680px)
+@media screen and (max-width:1080px)
 {
 
 	#fbContainer
@@ -159,7 +147,7 @@ Footer
 {
 	margin-left: 20%;
 }
-@media screen and (min-width: 40em)
+@media screen and (max-width: 40em)
 {
 	#impLinks
 	{
