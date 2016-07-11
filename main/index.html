@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="thumbs2.css">
     <link rel="stylesheet" type="text/css" href="thumbnail-slider1.css">
     <link rel="stylesheet" type="text/css" href="partner-slider.css">
+    
     </head>
   
   
@@ -363,7 +364,8 @@
       <li class="dateLi">
 
         <a class="expanded button" href="#"><b>Date and Time</b></a>
-        <p style="font-size: 20px;">July 9,2016</p>
+        
+        <p style="font-size: 28px" id="dateArea"></p>
 
       </li>
     </ul>
@@ -514,6 +516,10 @@
     <script src="thumbnail-slider.js"></script>
     <script src="thumbnail-slider1.js"></script>
     <script src="partner-slider.js"></script>
+    <script type="text/javascript">
+      var d = new Date();
+      document.getElementById("dateArea").innerHTML = d.toUTCString();
+    </script>
 
   </body>
 </html>
