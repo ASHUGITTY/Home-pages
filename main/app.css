@@ -1,3 +1,16 @@
+
+
+@media screen and (max-width: 1920px;)
+{
+
+
+
+	.orbit-container
+	{
+
+		margin-left: 0%;
+	}
+}
 /*-------------------------------------------------------------------------
 Image slider
 --------------------------------------------------------------------------*/
@@ -8,13 +21,7 @@ Image slider
 
 
 }
-@media screen  and (min-width:1920px )
-{
-	.orbit-container
-	{
-		margin-left: 0%;
-	}
-}
+
 .callout
 {
 	background:#eaeaea ;
@@ -109,6 +116,20 @@ Twitter
 	height: 200px;
 }
 /*-------------------------------------------------------------------------
+Twitter
+--------------------------------------------------------------------------*/
+
+@media screen and (max-width:780px)
+{
+
+	#fbContainer
+	{
+
+		height: 300px;
+		width: 150px;
+	}
+}
+/*-------------------------------------------------------------------------
 Footer
 --------------------------------------------------------------------------*/
 .footer,.footerLi
@@ -137,6 +158,17 @@ Footer
 #impLinks
 {
 	margin-left: 20%;
+}
+@media screen and (min-width: 40em)
+{
+	#impLinks
+	{
+		margin-left: 0%;
+	}
+	#footerLogo
+	{
+		margin-left: 0%;
+	}
 }
 #page
 {
@@ -196,5 +228,6 @@ End Lines
 
 	margin-right: 4rem;
 }
+
 
 
